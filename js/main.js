@@ -4,7 +4,6 @@ const layoverEl = document.getElementById("layover");
 const closeLayoverEl = document.querySelectorAll(
   '[data-action="close-layover"]'
 );
-
 const preview = document.getElementById("preview");
 
 // Generazione delle cards

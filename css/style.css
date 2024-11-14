@@ -1,3 +1,4 @@
+/* Resetta i margini e padding per tutti gli elementi */
 * {
   margin: 0;
   padding: 0;
@@ -6,19 +7,16 @@
 
 /* Stile di base per il corpo della pagina */
 body {
-  margin: 0;
-  padding: 0;
-  min-height: 100vh;
   background-image: url("../Giorno1/img/cork.png");
 
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  font-family: "Arial", sans-serif;
   flex-wrap: wrap;
+  justify-content: center;
+
+  font-family: "Arial", sans-serif;
 }
 
 /* Stile per l'intestazione */
@@ -32,10 +30,8 @@ body {
 
 /* Contenitore centrale della pagina */
 .container {
-  text-align: center;
   width: 90%;
   max-width: 1000px;
-
   padding: 20px;
 }
 
@@ -52,8 +48,8 @@ h1 {
   display: flex;
   flex-wrap: wrap;
 
-  gap: 20px;
-  padding: 101px;
+  gap: 50px;
+  padding: 65px;
   justify-content: space-around;
 }
 
@@ -99,7 +95,7 @@ h1 {
 
 /* Stile per la didascalia sotto la foto */
 .caption {
-  font-size: 0.9em;
+  font-size: 0.7em;
   color: #555;
   font-style: italic;
   line-height: 1.2em;
